@@ -26,6 +26,7 @@ while is_done == False:
             product_number = y_number * x_number
             x_string += str(product_number) + '    '
         print(x_string)
+
     # ask if user wants to go again
     do_continue = input('Continue? (y/n): ')
     if do_continue == 'n':
